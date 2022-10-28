@@ -1,0 +1,39 @@
+.navbar {
+  width: 100vw;
+  height: 5rem;
+  padding: 2rem;
+  background-color: var(--color-main);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarContainer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 2rem;
+  /* text-transform: capitalize; */
+}
+
+.navitems {
+  display: flex;
+  gap: 1rem;
+}
+
+.navButton {
+  padding: 0.5rem 1rem;
+  color: var(--color-blue-1);
+}
+
+.navButton:not(:last-child) {
+  margin-right: 1rem;
+}

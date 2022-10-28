@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+:root {
+  /* COLORS */
+  --color-main: #0b3580;
+  --color-blue-1: #1f71c2;
+  --color-blue-2: #214a8d;
+
+  --color-orange: #fabb04;
+  --color-gray-1: lightgray;
+  --color-gray-2: #313131;
+
+  --border-radius-sm: 3px;
+  --box-shadow-light: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* GENERAL */
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: opacity(0.9);
+}
